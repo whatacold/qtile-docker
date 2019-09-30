@@ -15,7 +15,7 @@ Docker images for developing [Qtile](https://github.com/qtile/qtile):
 
 1. `git clone https://github.com/qtile/qtile.git`
 2. `cd qtile`
-3. `sudo docker run -it --rm -v $PWD/:/qtile qtile-sphinx-docker:1.0 make -C /qtile/docs html` to generate documentations in HTML format.
+3. `sudo docker run -it --rm -v $PWD/:/qtile -e USER_ID=$UID qtile-sphinx-docker:1.0 make -C /qtile/docs html` to generate documentations in HTML format.
 
 # How to build these images
 
