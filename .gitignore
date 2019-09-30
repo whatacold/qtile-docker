@@ -1,0 +1,5 @@
+pytest-docker/fsroot/etc/apt/sources.list
+pytest-docker/fsroot/root/.pip/pip.conf
+
+sphinx-docker/fsroot/root/.pip/pip.conf
+
